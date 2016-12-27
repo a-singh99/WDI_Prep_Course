@@ -1,0 +1,68 @@
+.row1, row2, row3 {
+    clear:both;
+}
+
+.box1{
+    display: inline-block;
+    background-color:red;
+    height: 150px;
+    width: 150px;
+    margin-right: 20px;
+    margin-bottom: 20px;
+}
+
+.box2{
+    display: inline-block;
+    background-color:red;
+    height: 150px;
+    width: 150px;
+    margin-left:-4px;
+    margin-right: 20px;
+    margin-bottom: 20px;
+}
+
+.box3{
+    display: inline-block;
+    background-color:red;
+    height: 150px;
+    width: 150px;
+    margin-left:-4px;
+    margin-right: 20px;
+    margin-bottom: 20px;
+  
+}
+
+.box4,.box5,.box6 {
+    float:left;
+    background-color:red;
+    height: 150px;
+    width: 150px;
+    margin-right: 20px;
+    margin-bottom: 20px;
+}
+
+.box7 {
+    background-color:red;
+    height: 150px;
+    width: 150px;
+    position: relative;
+    top:170px;
+}
+
+.box8 {
+    background-color:red;
+    height: 150px;
+    width: 150px;
+    position: absolute;
+    left:170px;
+  
+}
+
+.box9 {
+    background-color: red;
+    height: 150px;
+    width: 150px;
+    position: absolute;
+    left: 340px;
+}
+
