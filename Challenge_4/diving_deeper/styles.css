@@ -32,7 +32,8 @@ div
 	float:right;
 }
 
-.b1 {	
+.b1 {
+	float:none;	
 }
 
 .c1 {
@@ -46,15 +47,20 @@ div
 /* SECOND ROW : DISPLAY */
 
 .a2 {
+	display:inline-block;
 }
 
 .b2 {
+	display: none;
+	
 }
 
 .c2 {
+	display: inline;
 }
 
 .d2 {
+	display: block;
 }
 
 /* THIRD ROW : POSITION */
@@ -70,10 +76,13 @@ div
 }
 
 .c3 {
-	position:sticky;
-	left:0px;
-	top:50px;
+	position:fixed;
+	right:0px;
+	top:510px;
 }
 
 .d3 {
+	position:absolute;
+	top:260px;
+	left:350px;
 }
