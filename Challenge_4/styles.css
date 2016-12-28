@@ -2,66 +2,35 @@
     clear:both;
 }
 
-.box1{
-    display: inline-block;
+.box {
     background-color:red;
     height: 150px;
     width: 150px;
+}
+
+#one, #two, #three{
+    display: inline-block;
     margin-right: 20px;
     margin-bottom: 20px;
 }
 
-.box2{
-    display: inline-block;
-    background-color:red;
-    height: 150px;
-    width: 150px;
-    margin-left:-4px;
-    margin-right: 20px;
-    margin-bottom: 20px;
-}
-
-.box3{
-    display: inline-block;
-    background-color:red;
-    height: 150px;
-    width: 150px;
-    margin-left:-4px;
-    margin-right: 20px;
-    margin-bottom: 20px;
-  
-}
-
-.box4,.box5,.box6 {
+#four, #five, #six{
     float:left;
-    background-color:red;
-    height: 150px;
-    width: 150px;
     margin-right: 20px;
     margin-bottom: 20px;
 }
 
-.box7 {
-    background-color:red;
-    height: 150px;
-    width: 150px;
+#seven {
     position: relative;
     top:170px;
 }
 
-.box8 {
-    background-color:red;
-    height: 150px;
-    width: 150px;
+#eight {
     position: absolute;
     left:170px;
-  
 }
 
-.box9 {
-    background-color: red;
-    height: 150px;
-    width: 150px;
+#nine {
     position: absolute;
     left: 340px;
 }

@@ -29,15 +29,18 @@ div
 
 /* FIRST ROW : FLOATS; */
 .a1 {
+	float:right;
 }
 
-.b1 {
+.b1 {	
 }
 
 .c1 {
+	float:right;
 }
 
 .d1 {
+	float:left;
 }
 
 /* SECOND ROW : DISPLAY */
@@ -57,12 +60,19 @@ div
 /* THIRD ROW : POSITION */
 
 .a3 {
+	position:relative;
 }
 
 .b3 {
+	position:relative;
+	top:-50px;
+	left:20px;
 }
 
 .c3 {
+	position:sticky;
+	left:0px;
+	top:50px;
 }
 
 .d3 {
