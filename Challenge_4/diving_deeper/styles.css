@@ -52,7 +52,6 @@ div
 
 .b2 {
 	display: none;
-	
 }
 
 .c2 {
@@ -66,7 +65,7 @@ div
 /* THIRD ROW : POSITION */
 
 .a3 {
-	position:relative;
+	position:static;
 }
 
 .b3 {
@@ -83,6 +82,6 @@ div
 
 .d3 {
 	position:absolute;
-	top:260px;
+	top:310px;
 	left:350px;
 }
