@@ -31,18 +31,14 @@ for (var i = 0; i < 8; i++){
         }
 };
 
-/*
-for (var i = "#"; (i.length) < 8; i+="#"){
-for (var j = " "; (j.length) < 8; j+=" "){
-
-    if ((i+j)%2==0){
-        console.log(i);
-    }  
-    else {
-        console.log(j);
-    }
-}
-    console.log("\n");
-
-}
-*/
+var output="";
+for (var i = 0; i < 8; i++){
+  for (var j = 0; j < 8; j++){
+    if ((i+j)%2==0)
+        output+=(" ");  
+    else 
+        output+=("#");   
+};
+    output+=("\n");
+};
+console.log(output);
