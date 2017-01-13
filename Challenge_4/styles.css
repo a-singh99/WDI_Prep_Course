@@ -1,5 +1,13 @@
-.row1, row2, row3 {
-    clear:both;
+.row1, .row2, .row3 {
+    clear: both;
+}
+
+.row1 {
+    font-size: 0px;
+}
+
+.row3 {
+    position: relative;
 }
 
 .box {
@@ -20,18 +28,19 @@
     margin-bottom: 20px;
 }
 
-#seven {
+/*#seven {
     position: relative;
-    top:170px;
 }
-
+*/
 #eight {
     position: absolute;
     left:170px;
+    top: 0px;
 }
 
 #nine {
     position: absolute;
     left: 340px;
+    top: 0px;
 }
 
